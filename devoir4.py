@@ -5,7 +5,7 @@
 
 import csv, spacy
 from collections import Counter
-# Importation des fichiers nécessaires à la création du .csv
+# Importation des fichiers nécessaires à la création du .csv.
 
 tal = spacy.load("fr_core_news_md")
 # Importation du réseau neuronal
