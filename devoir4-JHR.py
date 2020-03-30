@@ -69,7 +69,6 @@ for mots in chroniques:
             bigrams.append("{} {}".format(lemmes[x],lemmes[x+1]))
             # Append des lemmes à la liste vide "bigrams" préalablement créée.
 
-
 freq = Counter(bigrams)
 print(freq.most_common(50))
 # Impression des 50 termes les plus fréquents dans les chroniques de Martineau.    
@@ -87,3 +86,6 @@ print(freq.most_common(50))
 # J'ai toutefois tenté de reproduire tout le code vu dans le dernier cours en classe en plus d'ajouter la variante de la boucle if/elif (méthode vue dans un cours antérieur) qui, je pense, me permet d'aller retirer les bonnes paires de mots.
 # J'espère donc que j'arrive au résultat voulu. :-) 
 
+### OUI, TU Y PARVIENS!
+### DÉSOLÉ QUE TOI ET LES AUTRES QUI UTILISEZ WINDOWS VIVIEZ CES PROBLÈMES...
+### MAIS TON CODE EST EXCELLENT!
